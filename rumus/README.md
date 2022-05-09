@@ -26,7 +26,7 @@ Ini adalah kakulator Statistik yang terdapat fitur :
 - Hitung Kurtosis
 - Tabel Distribusi
 
-English Translate :
+> English Translate :
 
 This is a Statistics calculator which features:
 - Count Fractions
