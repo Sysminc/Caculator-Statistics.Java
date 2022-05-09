@@ -30,7 +30,7 @@ Ini adalah kakulator Statistik yang terdapat fitur :
 
 > English Translate :
 
-This is a Statistics calculator which features:
+This is a Statistics calculator with features:
 - Count Fractions
 - Calculate Average
 - Calculate Median
