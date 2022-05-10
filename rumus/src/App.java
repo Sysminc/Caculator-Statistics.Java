@@ -1,9 +1,9 @@
 import java.util.*;
 
-
 public class App {
     public static void main(String[] args)  {
         Scanner put = new Scanner(System.in);
+        tablestsk run = new tablestsk();
         int x;        
         
         do {
@@ -55,8 +55,7 @@ public class App {
                     break;
                 }
                 case 9 : {
-                    tablestsk obj = new tablestsk();
-                    obj.stsk();
+                    run.stsk();
                     break;
                 }
                 case 10 : { 

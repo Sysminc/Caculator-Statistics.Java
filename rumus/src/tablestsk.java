@@ -5,6 +5,7 @@ public class tablestsk {
         Scanner in = new Scanner(System.in);
         int n = 0, sum1 = 0 ,sum2 = 0;
         try{
+            System.out.println();
             System.out.print("Masukan banyak data : ");
             n = in.nextInt();
             System.out.println("-------------------------------------------");
