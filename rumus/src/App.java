@@ -1,9 +1,10 @@
 import java.util.*;
+import Syspack.*;
 
 public class App {
     public static void main(String[] args)  {
         Scanner put = new Scanner(System.in);
-        tablestsk run = new tablestsk();
+        Syspack.tablestsk run = new Syspack.tablestsk();
         int x;        
         
         do {

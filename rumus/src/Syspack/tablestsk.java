@@ -1,3 +1,4 @@
+package Syspack;
 import java.util.*;
 
 public class tablestsk {
