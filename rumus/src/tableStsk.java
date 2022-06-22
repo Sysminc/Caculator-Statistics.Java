@@ -1,27 +1,31 @@
-package Syspack;
 import java.util.*;
 
-public class tablestsk {
-    public void stsk() {
+class tableStsk  {
+    void stsk() {
         Scanner in = new Scanner(System.in);
-        int n = 0, sum1 = 0 ,sum2 = 0;
-        try{
+        
+        try {
+            int n;
+            int sum1 = 0;
+            int sum2 = 0;
             System.out.println();
             System.out.print("Masukan banyak data : ");
             n = in.nextInt();
-            System.out.println("-------------------------------------------");
 
+            System.out.println("-------------------------------------------");
             int arr [][] = new int[n][2];
             for (int i = 0; i < n; i++) {
                 System.out.print("Masukan data-" + (i+1) + " : ");
                 arr[i][0] = in.nextInt();
-                System.out.println();
+            }
+
+            System.out.println("-------------------------------------------");
+            for (int i = 0; i < n; i++) {
                 System.out.print("Masukan ferkuensi-" + (i+1) + " : ");
                 arr[i][1] = in.nextInt();
-                System.out.println();
             }
-            System.out.println("-------------------------------------------");
 
+            System.out.println("-------------------------------------------");
             Arrays.sort(arr, new Comparator<int[]>() {
                 @Override
                 public int compare(int[] o1, int[] o2) {
@@ -52,13 +56,15 @@ public class tablestsk {
                 datasum = datasum + arr[i][0];
                 fersum = fersum + arr[i][1];
             }
+
             System.out.println("-------------------------------------------");
             System.out.println("Total DATA : " + datasum);
             System.out.println("Total Ferkuensi : " + fersum);
             System.out.println("-------------------------------------------");
+            in.close();
         }
         catch (Exception e) {
-            System.out.println("Erorr!! : " + e.getMessage());
+            System.out.println(e);
         }
     }
 }
