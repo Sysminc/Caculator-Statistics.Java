@@ -16,6 +16,5 @@ class Kurtosis {
 
         System.out.println("Pangkatnya adalah : " + ex);
         System.out.println("Hasilnya adalah : " + sum);
-        put.close();
     }    
 }

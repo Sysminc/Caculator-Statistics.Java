@@ -61,7 +61,6 @@ class tableStsk  {
             System.out.println("Total DATA : " + datasum);
             System.out.println("Total Ferkuensi : " + fersum);
             System.out.println("-------------------------------------------");
-            in.close();
         }
         catch (Exception e) {
             System.out.println(e);

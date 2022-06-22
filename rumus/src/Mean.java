@@ -11,6 +11,5 @@ class Mean {
         mean = n1 / n2 ;
     
         System.out.println("Hasilnya adalah : " + mean);
-        put.close();
     }
 }

@@ -13,6 +13,5 @@ class Rerata {
         double sum = a / b;
         System.out.println();
         System.out.println("Rata rata-nya adalah : "+sum);
-        put.close();
     } 
 }

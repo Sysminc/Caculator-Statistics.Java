@@ -11,6 +11,5 @@ class Pecahan {
         z = put.nextDouble();
         double sum = x * (y + z);
         System.out.println("Maka pecahannya adalah : "+sum);
-        put.close();
     }
 }

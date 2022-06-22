@@ -11,6 +11,5 @@ class Sbaku {
         sbaku = n1 / n2 ;
     
         System.out.println("Hasilnya adalah : " + sbaku);
-        put.close();
     }   
 }

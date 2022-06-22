@@ -20,6 +20,5 @@ class Varian {
         System.out.println("Hasilnya adalah : " + hasil);
         System.out.println("Variannya adalah : " + sum);
         System.out.println("Akarnya : " + Math.sqrt(sum));
-        put.close();
     }    
 }

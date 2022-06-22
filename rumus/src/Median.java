@@ -9,6 +9,5 @@ class Median {
         n = put.nextDouble();
         r = (1 + n) / 2;
         System.out.println("Maka mediannya adalah : "+r);
-        put.close();
     }
 }
